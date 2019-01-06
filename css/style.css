@@ -99,6 +99,8 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   width: 100%;
+  visibility: visible;
+  /* background: rgb(94, 84, 31); */
   padding: 20px 0;
   z-index: 1001;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -120,7 +122,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-nav a {
   padding: 5px 10px;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 @media screen and (max-width: 768px) {
   .gtco-nav .menu-1, .gtco-nav .menu-2 {
@@ -230,7 +232,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 4px;
 }
 .gtco-nav ul li.btn-cta a:hover span {
-  background: #fff;
+  background: rgb(255, 255, 255);
   color: #FBB448;
 }
 .gtco-nav ul li.active > a {
