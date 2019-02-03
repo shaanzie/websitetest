@@ -826,6 +826,11 @@ form label {
   width: 100%;
 }
 
+/* div.imageloophole { */
+  /* position: fixed; */
+  /* width: 10px; */
+  /* height: 20px; */
+/* } */
 .feature-center {
   text-align: center;
   padding-left: 10px;
@@ -1545,6 +1550,8 @@ form label {
   z-index: 9999;
   background: url(../images/loader.gif) center no-repeat #fff;
 }
+
+
 
 .js .animate-box {
   opacity: 0;
